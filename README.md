@@ -1,4 +1,4 @@
-# filesystems
+![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/da1d0d03-b603-41c0-82af-3b8028d7a833)# filesystems
 
 ## Hardware needed
 1. SDCARD or USB Flash
@@ -34,10 +34,29 @@
 #### 1-Make at least two partitions on your Flash using gparted:
 #### 2-Create for each partitions filesystem ( first one ext4 & second one ext2 ):
 
-- ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/1d768d27-d6e2-426d-a72d-ce344325b199)
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/fd23a03f-d116-4c29-97fe-bbadefc3e62d)
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/d619f64f-8ff5-43b6-b837-fd28b2d9c41e)
 
 
+#### 3-Mount two partitions on your root filesystem:
 
+- First, I want to create two directories for each partition int the root:
+    ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/f081b7e5-9b12-49c9-8f0c-d755bc10aeb4)
+
+- Then, I want to mount each partition to these folders:
+
+  ```BASH
+  sudo mount -t ext4 /dev/sdc1 /flash-p1
+  sudo mount -t ext2 /dev/sdc2 /flash-p2
+  df -h
+  ```
+    ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/ba49d34c-653e-4024-86f0-7fe9bcc0ddac)
+
+#### 4-Add some files inside each one:
+
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/0e664ec9-a101-4964-86de-41bf682b2b48)
+
+#### 5-reboot your machine and check if mounting points still exists, it should not:
 
 
 
