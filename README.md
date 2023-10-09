@@ -1,4 +1,4 @@
-# filesystems
+# Filesystems
 
 ## Hardware needed
 1. SDCARD or USB Flash
