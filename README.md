@@ -43,7 +43,7 @@
 #### 3-Mount two partitions on your root filesystem:
 
 - First, I want to create two directories for each partition int the root:
-- 
+
     ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/f081b7e5-9b12-49c9-8f0c-d755bc10aeb4)
 
 - Then, I want to mount each partition to these folders:
@@ -61,6 +61,9 @@
 
 #### 5-reboot your machine and check if mounting points still exists, it should not:
 
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/853be18b-3bbe-41c8-8d7c-b03977698c40)
+
+#### 6-Make the ext4 persistance by adding /etc/fstab file:
 
 
 
