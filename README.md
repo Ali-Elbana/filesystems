@@ -24,8 +24,14 @@
 ---------------------------------------------------------
 ## Solution.
 
+**Enviroment**: I use flash drive with size of 8 Gigabytes.
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/6612c0f2-4be2-4079-9622-ef27a01a490d)
 
+**Firstly**, I want to unmount the mounted partition:
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/3caefacc-8736-4973-92fa-deddf15bd772)
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/cc5d8957-ffe5-4be3-a4b9-dc776d541f56)
 
+## 1-Make at least two partitions on your Flash using gparted.
 
 
 
