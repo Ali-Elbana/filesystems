@@ -31,12 +31,14 @@
 **Firstly**, I want to unmount the mounted partition:
 
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/3caefacc-8736-4973-92fa-deddf15bd772)
+  
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/cc5d8957-ffe5-4be3-a4b9-dc776d541f56)
 
 #### 1-Make at least two partitions on your Flash using gparted:
 #### 2-Create for each partitions filesystem ( first one ext4 & second one ext2 ):
 
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/fd23a03f-d116-4c29-97fe-bbadefc3e62d)
+  
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/d619f64f-8ff5-43b6-b837-fd28b2d9c41e)
 
 
@@ -62,6 +64,8 @@
 #### 5-reboot your machine and check if mounting points still exists, it should not:
 
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/853be18b-3bbe-41c8-8d7c-b03977698c40)
+
+![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/702a8351-c556-4c1a-8c7b-f45c708430ec)
 
 #### 6-Make the ext4 persistance by adding /etc/fstab file:
 
