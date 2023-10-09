@@ -24,10 +24,12 @@
 ---------------------------------------------------------
 ## Solution.
 
-**Enviroment**: I use flash drive with size of 8 Gigabytes.
+**Enviroment**: I use flash drive with size of 8 Gigabytes:
+
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/6612c0f2-4be2-4079-9622-ef27a01a490d)
 
 **Firstly**, I want to unmount the mounted partition:
+
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/3caefacc-8736-4973-92fa-deddf15bd772)
   ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/cc5d8957-ffe5-4be3-a4b9-dc776d541f56)
 
@@ -41,6 +43,7 @@
 #### 3-Mount two partitions on your root filesystem:
 
 - First, I want to create two directories for each partition int the root:
+- 
     ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/f081b7e5-9b12-49c9-8f0c-d755bc10aeb4)
 
 - Then, I want to mount each partition to these folders:
