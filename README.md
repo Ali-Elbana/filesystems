@@ -73,8 +73,9 @@
 
 #### 7-reboot your system and Check if the ext4 is mounted:
 
+  ![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/a9bbaa16-a838-4f0e-9367-2c03776c850e)
 
-
+![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/13f47d76-cc6c-4e01-9b60-6021023fbee1)
 
 
 
