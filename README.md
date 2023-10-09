@@ -1,4 +1,4 @@
-![image](https://github.com/Ali-Elbana/filesystems/assets/97269796/da1d0d03-b603-41c0-82af-3b8028d7a833)# filesystems
+# filesystems
 
 ## Hardware needed
 1. SDCARD or USB Flash
